@@ -99,7 +99,14 @@ click
 
 3-10
 移动端性能陷阱 硬件加速
-减少避免repaint reflow 缓存数据
+
+一、减少避免repaint reflow 
+二、缓存数据
+三、CSS3 transform 代替DOM 操作 Animate.css动画库 daneden.css github
+不要给非static元素用CSS3动画absolute relative
+适当使用硬件加速 canvas 会触发 transform: translate3d(0,0,0);
+
+
 PC 时代：
 pc端 百度页面 network 某个请求
 Cache-Control 
@@ -125,6 +132,17 @@ JSON.parse(localStorage.getItem('data_1')); // Object {a:1}
 	可以存更大量数据 并且可以给数据建立索引  做查询
 
 
+
+
+
+
+4-1
+交互图
+
+4-2 技术选型
+轻量化 维护简单 快速开发 原生还是框架
+模块化拆分:
+pc时代  css js html
 
 
 
