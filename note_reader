@@ -144,6 +144,32 @@ JSON.parse(localStorage.getItem('data_1')); // Object {a:1}
 模块化拆分:
 pc时代  css js html
 
+移动端：简单的可以放在一起
+
+
+4-3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
