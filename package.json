@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DesperadoH/reader/issues"
   },
-  "homepage": "https://github.com/DesperadoH/reader#readme"
+  "homepage": "https://github.com/DesperadoH/reader#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2"
+  }
 }
