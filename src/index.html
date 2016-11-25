@@ -7,21 +7,15 @@
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
-	<style>
-
-
-	</style>
-
 </head>
 
 
 
-<body>
-	
-	
-
-
-		<div id="top-nav" class="top-nav">
+<body id="body">
+		<!-- <div class="m-artical-action">
+			<div class="artical-action-mid" id="action_mid"></div>
+		</div> -->
+		<div id="top-nav" class="top-nav" >
 			<div class="icon-back"></div>
 			<div class="nav-title">返回书架</div>
 		</div>
@@ -70,31 +64,45 @@
 					<div class="choose"></div>
 					<div>目录</div>
 				</div>
-				<div class="bottom-item">
+				<div id="font-button" class="bottom-item">
 					<div class="font"></div>
 					<div>字体</div>
 				</div>
-				<div class="bottom-item">
-					<div class="night"></div>
-					<div>夜间</div>
+				<div id="night-button" class="bottom-item">
+					<div id="day" style="display:none">
+						<div class="day"></div>
+						<div>白天</div>
+					</div>
+					<div id="night">
+						<div class="night" ></div>
+						<div>夜间</div>
+					</div>
 				</div>
 			</div>	
 		</div>
-
+		<div id="font-container" class="nav-pannel" style="display:none;">
+			<div class="child-mod">
+				<span>字号</span>
+				<button id="large-font" class="font-btn">大</button>
+				<button id="small-font" class="font-btn">小</button>
+			</div>
+			<div class="child-mod">
+				<span>背景</span>
+				<span class="bg-color"></span>
+				<span class="bg-color"></span>
+				<span class="bg-color"></span>
+				<span class="bg-color"></span>
+				<span class="bg-color"></span>
+			</div>
+		</div>
 
 
 	
 	<script src="lib/zepto.min.js"></script>
 	<script>window.jQuery = $</script>
+	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.base64.js"></script>
 	<script src="js/jquery.jsonp.js"></script>
-	<script>
-
-	  /*
-	   *	mainjs
-	   * 
-	   */
-
-	</script>
+	<script src="js/main.js"></script>
 </body>
 </html>
